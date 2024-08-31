@@ -320,11 +320,11 @@ class LLMResumeJobDescription:
             f"<body>\n"
             f"  {results['header']}\n"
             f"  <main>\n"
-            f"    {results['education']}\n"
             f"    {results['work_experience']}\n"
             f"    {results['side_projects']}\n"
             f"    {results['achievements']}\n"
             f"    {results['additional_skills']}\n"
+            f"    {results['education']}\n"
             f"  </main>\n"
             f"</body>"
         )

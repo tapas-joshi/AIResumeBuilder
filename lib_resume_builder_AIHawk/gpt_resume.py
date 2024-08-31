@@ -212,11 +212,11 @@ class LLMResumer:
             f"<body>\n"
             f"  {header}\n"
             f"  <main>\n"
-            f"    {education}\n"
             f"    {work_experience}\n"
             f"    {side_projects}\n"
             f"    {achievements}\n"
             f"    {additional_skills}\n"
+            f"    {education}\n"
             f"  </main>\n"
             f"</body>"
         )
