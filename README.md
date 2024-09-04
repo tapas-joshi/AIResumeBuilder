@@ -1,14 +1,4 @@
-# lib_resume_builder_AIHawk
-
-🚀 **Join Our Telegram Community!** 🚀
-
-Join our **Telegram community** for:
-- **Support with AIHawk software**
-- **Share your experiences** with AIhawk and learn from others
-- **Job search tips** and **resume advice**
-- **Idea exchange** and resources for your projects
-
-📲 **[Join now!](https://t.me/AIhawkCommunity)**
+# AIResumeBuilder
 
 ## Table of Contents
 
@@ -28,7 +18,7 @@ Join our **Telegram community** for:
 
 ## Introduction
 
-`lib_resume_builder_AIHawk` is a Python lib designed to simplify the creation of personalized, professional resumes. By integrating with GPT models, this library allows you to generate resumes that are tailored to specific job descriptions and formatted in various styles. It provides a flexible approach to resume building with minimal effort.
+`AIResumeBuilder` is a Python lib designed to simplify the creation of personalized, professional resumes. By integrating with GPT models, this library allows you to generate resumes that are tailored to specific job descriptions and formatted in various styles. It provides a flexible approach to resume building with minimal effort.
 
 ## Features
 
@@ -39,7 +29,7 @@ Join our **Telegram community** for:
 
 ## Dependencies
 
-`lib_resume_builder_AIHawk` requires the following Python packages:
+`AIResumeBuilder` requires the following Python packages:
 
 - `langchain`
 - `langchain-community`
@@ -57,23 +47,74 @@ Join our **Telegram community** for:
 
 ## Documentation
 
-Here’s a detailed documentation for each module in the `lib_resume_builder_AIHawk` library:
+Here’s a detailed documentation for each module in the `AIResumeBuilder` library:
 
-(TODO) (:
+## Build Locally
+
+To build the project locally, follow these steps:
+
+1. **Clone the Repository**:
+   - If you haven't already, clone the repository to your local machine:
+     ```bash
+     git clone https://github.com/tapas-joshi/AIResumeBuilder
+     cd AIResumeBuilder
+     ```
+
+2. **Set Up a Virtual Environment (Optional but Recommended)**:
+   - Create a virtual environment to isolate your project dependencies:
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On **Windows**:
+       ```bash
+       venv\Scripts\activate
+       ```
+     - On **macOS/Linux**:
+       ```bash
+       source venv/bin/activate
+       ```
+
+3. **Install Dependencies**:
+   - Install the necessary dependencies listed in `requirements.txt` (if present):
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. **Build and Install the Package Locally**:
+   - Use `pip` to build and install the package locally:
+     ```bash
+     pip install .
+     ```
+
+   - Alternatively, for development purposes, you can install the package in "editable" mode, which reflects changes to your code immediately:
+     ```bash
+     pip install -e .
+     ```
+
+5. **Verify the Installation**:
+   - To verify that the package has been installed correctly, try importing it in a Python shell:
+     ```python
+     python
+     >>> import your_package_name
+     ```
+
+6. **Run the Application**:
+   - Once installed, you can run the application or use the package in your projects as needed.
 
 
 ## Troubleshooting
 
-For issues, open an issue on GitHub or join our Telegram community for support.
-📲 [Join now!](https://t.me/AIhawkCommunity)
+For issues, open an issue on GitHub
 
 ## Contributors
 
 - [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
+- [tapas-joshi] (https://github.com/tapas-joshi) - Developer
 
 ## How to Contribute
 
-We welcome contributions to `lib_resume_builder_AIHawk`! Whether you are a designer, prompt engineer, software engineer, or have other skills, here’s how you can help:
+We welcome contributions to `AIResumeBuilder`! Whether you are a designer, prompt engineer, software engineer, or have other skills, here’s how you can help:
 
 ### Web Designers
 
@@ -101,5 +142,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Disclaimer
 
-`lib_resume_builder_AIHawk` is designed to assist with resume creation. While it aims to be helpful, the service may not cover all specific requirements for every job application. We assume no responsibility for the quality or accuracy of the generated resumes.
+`AIResumeBuilder` is designed to assist with resume creation. While it aims to be helpful, the service may not cover all specific requirements for every job application. We assume no responsibility for the quality or accuracy of the generated resumes.
 

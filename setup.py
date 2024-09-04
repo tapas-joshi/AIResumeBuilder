@@ -6,9 +6,9 @@ setup(
     description='A package to generate AI-assisted resumes using GPT models',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author='feder-cr',
+    author='tapas-joshi',
     author_email='federico.elia.majo@gmail.com',
-    url='https://github.com/feder-cr/lib_resume_builder_AIHawk',
+    url='https://github.com/tapas-joshi/AIResumeBuilder',
     packages=find_packages(),
     install_requires=[ 
         'langchain',
