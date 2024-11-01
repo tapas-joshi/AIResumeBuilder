@@ -1,0 +1,12 @@
+__pycache__
+.venv
+log
+/src/__pycache__
+test*
+my*
+lib_resume_builder_AIHawk.egg-info/*
+build/*
+resume.pdf
+data_folder
+generated_cv
+plain_text_resume*
